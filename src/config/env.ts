@@ -1,5 +1,5 @@
 const KEYS = {
-  YOUTUBE: 'AIzaSyDlxAohx4kitZLN3MdHdPzZID4lujINbWY',
+  YOUTUBE: '',
   TAG_STORAGE_TOKEN: '@tag',
 };
 
