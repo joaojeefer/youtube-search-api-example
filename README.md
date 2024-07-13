@@ -1,4 +1,15 @@
-# Observações sobre o trabalho da disciplina
+# Integrantes do trabalho da disciplina
+
+Caina dos Santos Mota
+
+Diego Francio
+
+Joao Jeefer da Silva Felix
+
+Renata barros da silva
+
+> Foi utilizada a API do youtube ( https://developers.google.com/youtube/v3)
+
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
