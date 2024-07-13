@@ -1,30 +1,36 @@
-# Integrantes do trabalho da disciplina
+## Integrantes do trabalho da disciplina
 
 Caina dos Santos Mota
 
 Diego Francio
 
-Joao Jeefer da Silva Felix
+João Jeefer da Silva Felix
 
 Renata barros da silva
 
-> Foi utilizada a API do youtube ( https://developers.google.com/youtube/v3/docs/search/list?hl=pt-br )
+> API utilizada: youtube ( https://developers.google.com/youtube/v3/docs/search/list?hl=pt-br )
 
-A ideia desse projeto foi elaborar um sistema audiovisual de suporte ( ajuda online ) para os operadores do sistema produtivo referente ao caso de ensino proposto. Nesse exemplo, foi desenvolvido uma aplicação mobile que permite inserir tags para pesquisa e armazena a tag num banco de dados local, facilitando uma futura busca do mesmo assunto. É utilizada a API do youtube, especificamente o componente search: list,  para fazer a busca e obter uma lista de retorno de 10 itens. Ao clicar sobre um dos itens retornados, o video é exibido dentro do aplicativo.
+A ideia desse projeto foi elaborar uma interface de suporte (ajuda online) para os operadores do sistema produtivo referente ao caso de ensino proposto.
 
-# Instruções para configurar o ambiente de desenvolvimento
+Nesse exemplo, foi desenvolvida uma aplicação mobile que permite inserir tags para pesquisa, facilitando uma futura busca de vídeos sobre o mesmo assunto. As tags pesquisadas ficam armazenadas na memória do dispositivo.
 
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+É utilizada a API do youtube, mais especificamente o componente **search: list**,  para fazer a busca e obter uma lista parametrizada com um retorno máximo de 10 itens por consulta.
 
-# Getting Started
+É possível reproduzir cada video dentro da própria aplicação, também através da API do youtube.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Instruções para configurar o ambiente de desenvolvimento
 
-## Step 1: Start the Metro Server
+Este é um projeto [**React Native**](https://reactnative.dev) desenvolvido com Typescript.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Começar
 
-To start Metro, run the following command from the _root_ of your React Native project:
+>**Nota**: Certifique-se de configurar seu ambiente para executar a a plicação, conforme documentação [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup).
+
+### Passo 1: Inicializar o servidor Metro
+
+Primeiramente você precisa inicializar o **Metro**, o JavaScript _bundler_ que está disponível no React Native.
+
+Para inicializar o Metro, rode os comandos abaixo na raiz do projeto:
 
 ```bash
 # using npm
@@ -34,11 +40,11 @@ npm start
 yarn start
 ```
 
-## Step 2: Start your Application
+### Passo 2: Inicialize sua aplicação
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Deixe o metro rodar no seu próprio terminal. Abra um novo terminal na raiz do projeto e execute o comando abaixo, dependendo da sua plataforma (Android ou iOS):
 
-### For Android
+#### For Android
 
 ```bash
 # using npm
@@ -48,7 +54,7 @@ npm run android
 yarn android
 ```
 
-### For iOS
+#### For iOS
 
 ```bash
 # using npm
@@ -58,38 +64,4 @@ npm run ios
 yarn ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Se tudo estiver executado corretamente você deve ver a aplicação executando no emulador de sua escolha.
