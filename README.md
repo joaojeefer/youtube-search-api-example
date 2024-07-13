@@ -8,7 +8,9 @@ Joao Jeefer da Silva Felix
 
 Renata barros da silva
 
-> Foi utilizada a API do youtube ( https://developers.google.com/youtube/v3)
+> Foi utilizada a API do youtube ( https://developers.google.com/youtube/v3/docs/search/list?hl=pt-br )
+
+A ideia desse projeto foi elaborar um sistema audiovisual de suporte ( ajuda online ) para os operadores do sistema produtivo referente ao caso de ensino proposto. Nesse exemplo, foi desenvolvido uma aplicação mobile que permite inserir tags para pesquisa e armazena a tag num banco de dados local, facilitando uma futura busca do mesmo assunto. É utilizada a API do youtube, especificamente o componente search: list,  para fazer a busca e obter uma lista de retorno de 10 itens. Ao clicar sobre um dos itens retornados, o video é exibido dentro do aplicativo.
 
 # Instruções para configurar o ambiente de desenvolvimento
 
