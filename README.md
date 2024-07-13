@@ -10,6 +10,7 @@ Renata barros da silva
 
 > Foi utilizada a API do youtube ( https://developers.google.com/youtube/v3)
 
+# Instruções para configurar o ambiente de desenvolvimento
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
